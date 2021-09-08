@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.net.CookieHandler;
 import java.net.URISyntaxException;
 import java.text.ParseException;
-import java.util.Scanner;
 import java.util.concurrent.Executors;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -20,10 +19,10 @@ public class Start {
     final static String Referer = "Referer";
     final static String RefererArg = "https://passport.jd.com/new/login.aspx";
     //茅台 100012043978 双手柄 100021367452 单手柄 100019378198
-    static String pid = new Scanner(System.in).nextLine();
-    static String eid = "X";
-    static String fp = "X";
-    volatile static Integer ok = new Scanner(System.in).nextInt();
+    static String pid = "100011253971";
+    static String eid = "RYEHGPISY3ZEEGDUQKJRIWB3QJ2HDM5DJN2IFD6QJIEJQJJA66UJSAZSGFD2UGFP7GHRV4KGOFHMJDACZOXEVM2WWA";
+    static String fp = "3d0d833993bc315c4dd03fb488b83332";
+    volatile static Integer ok = 1;
     static CookieManager manager = new CookieManager();
 
     public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException, ParseException {
